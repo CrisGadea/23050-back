@@ -26,25 +26,32 @@ public class Main {
         //}
 
 
-        Alumno alumno1 = new Alumno(111111, "John", "Doe", 1);
-        Alumno alumno2 = new Alumno();
+        //Alumno alumno1 = new Alumno(111111, "John", "Doe", 1);
+        //Alumno alumno2 = new Alumno();
 
-        System.out.println("El alumno 1 se llama " + alumno1.getNombre());
+        //System.out.println("El alumno 1 se llama " + alumno1.getNombre());
         //System.out.println("El alumno 2 se llama " + alumno2.getNombre());
 
-        alumno2.setNombre("Cristian");
-        alumno2.setApellido("Gadea");
-        alumno2.setDni(1324534);
-        alumno2.setLegajo(2);
+        //alumno2.setNombre("Cristian");
+        //alumno2.setApellido("Gadea");
+        //alumno2.setDni(1324534);
+        //alumno2.setLegajo(2);
 
-        alumno1.setNombre("Micaela");
+        //alumno1.setNombre("Micaela");
 
-        System.out.println("El alumno 2 se llama " + alumno2.getNombre());
+        //System.out.println("El alumno 2 se llama " + alumno2.getNombre());
         //System.out.println("Ahora la alumna 1 se llama " + alumno1.getNombre());
 
 
 
+        Perro perro1 = new Perro("Firulais","caniche", 10,1);
+        Gato gato1 = new Gato("Michi", "mestiza", 10, 2);
 
+        System.out.println("Creamos un perro llamado " + perro1.getNombre());
+        System.out.println("Creamos un gato llamado " + gato1.getNombre());
+
+        System.out.println(perro1.comunicarse());
+        System.out.println(gato1.comunicarse());
 
 
     }
